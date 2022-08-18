@@ -1,7 +1,10 @@
-
+body {
+    display: flexbox;
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+}
 
 /* style header */
-header { 
+header {
     background-color: black;
     display: flex;
     justify-content: space-between;
@@ -14,7 +17,7 @@ header a {
 }
 
 header nav {
-margin: 7px 0;
+    margin: 7px 0;
 }
 
 header nav ul {
@@ -24,12 +27,82 @@ header nav ul {
     align-items: center;
     list-style: none;
 }
+
 header nav ul li {
     display: inline;
 }
+
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 1.55vw;
 
+}
+/* style Hero */
+hero {
+    background-size: cover;
+    background-position: center;
+    background-color:  #c6bfbf;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+
+}
+
+hero h1{
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+}
+
+hero h2 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+}
+/* style lists */
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* style footer */
+#footer {
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/
+    height: 40px;
+   
+}
+
+footer {
+    background: #0b4d14;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+
+
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    
+
+}
+
+footer ul li {
+    display: inline;
+    
+}
+
+footer ul li a {
+    margin: 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    color: white;
 }
